@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Pacifico');
+
+.App {
+	background-color: #1EE494;
+	height: 100vh;
+	width: 100vw;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.college-theme{
+	background-color: #A30046;
+}
+
+.college-theme h1{
+	font-family: 'Pacifico', cursive;
+	color: white;
+	 margin: 0;
+	 height: 40px;
+	 font-size: 20px;
+	 display: flex;
+	 align-items: center;
+	justify-content: center;
+}
+
+.college-theme .chats {
+	box-sizing: border-box;
+	padding: 0 20px;
+	margin: 10px 0 0;
+	height: 510px;
+	overflow-y: scroll;
+}
+
+.college-theme .chats .chat {
+	background: rgba(255, 255, 255, 0.8);
+	position: relative;
+	padding: 5px 13px;
+	font-size: 14px;
+	border-radius: 10px;
+	list-style: none;
+	clear: both;
+	margin: 10px 0;
+	max-width: 200px;
+}
+
+.college-theme .chats .chat.right{
+	float: right;
+	clear: both;
+}
+
+.college-theme .chats .chat.left{
+	float: left;
+	clear: both;
+}
+
+.college-theme .input{
+  height: 40px;
+  width: 100%;
+  background: rgba(30, 228, 148, 0.7);
+  display: flex;
+  flex-direction: row;
+  align-items: center;	
+}
+
+.college-theme .input input[type="text"]{
+  background: rgba(255, 255, 255, 0.5);
+  outline: 0;
+  border: 2px solid #1EE494;
+  padding: 0 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin-left: 10px;
+  height: 30px;
+  width: 270px;
+  box-sizing: border-box;
+  font-size: 14px;	
+}
+
+.college-theme .input input[type="submit"]{
+  background: transparent;
+  border: 1px solid #1EE494;
+  height: 30px;
+  width: 70px;
+  font-size: 14px;
+  box-sizing: border-box;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;	
+}
+
+.college-theme .input input[type="submit"]:hover {
+  background: #1EE494;
+  color: #FFF;	
+}
